@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "assert-dir-equal": "^1.0.1",
+    "metalsmith": "^1.0.1",
     "mocha": "^2.0.1"
   }
 }
