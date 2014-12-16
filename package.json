@@ -1,0 +1,27 @@
+{
+  "name": "metalsmith-robotskirt",
+  "description": "A Metalsmith plugin to convert markdown files with Robotskirt, a node wrapper for Sundown.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/simbo/metalsmith-robotskirt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/simbo/metalsmith-robotskirt/issues"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "debug": "^2.1.0",
+    "highlight.js": "^8.4.0",
+    "lodash": "^2.4.1",
+    "robotskirt": "^2.7.1"
+  },
+  "devDependencies": {
+    "assert-dir-equal": "^1.0.1",
+    "mocha": "^2.0.1"
+  }
+}
