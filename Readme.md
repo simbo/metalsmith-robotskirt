@@ -4,8 +4,8 @@ metalsmith-robotskirt
 [![Build Status](https://travis-ci.org/simbo/metalsmith-robotskirt.svg?branch=master)](https://travis-ci.org/simbo/metalsmith-robotskirt)
 
   > A Metalsmith plugin to convert markdown files with
-  > [robotskirt](https://github.com/benmills/robotskirt),
-  > a node wrapper for [sundown](https://github.com/vmg/sundown).
+  > [Robotskirt](https://github.com/benmills/robotskirt),
+  > a node wrapper for [Sundown](https://github.com/vmg/sundown).
 
 
 ## Installation
