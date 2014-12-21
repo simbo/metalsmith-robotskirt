@@ -1,8 +1,8 @@
 metalsmith-robotskirt
 =====================
 
-  > A Metalsmith plugin to convert markdown files with
-  > [Robotskirt](https://github.com/benmills/robotskirt),
+  > A [Metalsmith](https://github.com/segmentio/metalsmith) plugin to convert
+  > markdown files with [Robotskirt](https://github.com/benmills/robotskirt),
   > a node wrapper for [Sundown](https://github.com/vmg/sundown).
 
 [![npm Package Version](https://img.shields.io/npm/v/metalsmith-robotskirt.svg?style=flat-square)](https://www.npmjs.com/package/metalsmith-robotskirt)
@@ -28,7 +28,7 @@ _metalsmith.json_ with any options you want, like so:
 ``` json
 {
   "plugins": {
-    "metalsmith-markdown": {
+    "metalsmith-robotskirt": {
       "smartypants": true,
       "extensions": {
         "tables": true
