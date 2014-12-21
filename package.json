@@ -3,7 +3,10 @@
   "description": "A Metalsmith plugin to convert markdown files with Robotskirt, a node wrapper for Sundown.",
   "version": "0.1.0",
   "author": "Simon Lepel <simbo@simbo.de>",
-  "license": "MIT",
+  "license": {
+    "type": "MIT",
+    "url": "http://simbo.mit-license.org/"
+  },
   "scripts": {
     "test": "./node_modules/.bin/mocha -R spec",
     "lint": "./node_modules/.bin/jshint ./lib/index.js"

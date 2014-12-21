@@ -7,6 +7,8 @@ metalsmith-robotskirt
   > [Robotskirt](https://github.com/benmills/robotskirt),
   > a node wrapper for [Sundown](https://github.com/vmg/sundown).
 
+[![MIT License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://simbo.mit-license.org)
+
 
 ## Installation
 
@@ -180,8 +182,3 @@ metalsmith.use(robotskirt({
     }
 }));
 ```
-
-
-## License
-
-MIT
