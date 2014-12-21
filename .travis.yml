@@ -1,8 +1,17 @@
 language: node_js
 node_js:
-  - "0.10"
+- '0.10'
 addons:
   code_climate:
     repo_token: c8d5de4eefe8739b3fc508c5194e8258964c8222a3fffe0b73b9c00652d8c2c9
+deploy:
+  provider: npm
+  email: simbo@simbo.de
+  api_key:
+    secure: JWgPLi9mUQDfmDdTh3fjqiCLuApyZ5TJnesSTazlG8rFEJtwzNpmj4E8JxQj7poNkJOt3hNqCKmTsPdXEK5jn6A3ZSRoYBMJLxkHgdQIKnyJz5JeAdivwMphWgJl8Mu1pwKKoc1AXDyx1mx1z4XthhEpPIozNWcDKiHrkLWg7PA=
+  on:
+    tags: true
+    repo: simbo/metalsmith-robotskirt
+    all_branches: true
 after_script:
   - cat lcov.info | codeclimate

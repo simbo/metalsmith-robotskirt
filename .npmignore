@@ -5,6 +5,7 @@
 test
 .editorconfig
 .gitignore
+.travis.yml
 History.md
 
 # = Project related
