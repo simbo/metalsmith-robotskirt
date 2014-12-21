@@ -5,7 +5,8 @@
   "author": "Simon Lepel <simbo@simbo.de>",
   "license": "MIT",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
+    "test": "./node_modules/.bin/mocha -R spec",
+    "lint": "./node_modules/.bin/jshint ./lib/index.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "assert-dir-equal": "^1.0.1",
+    "jshint": "^2.5.11",
     "metalsmith": "^1.0.1",
     "mocha": "^2.0.1"
   }
