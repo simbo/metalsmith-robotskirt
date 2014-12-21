@@ -14,4 +14,5 @@ deploy:
     repo: simbo/metalsmith-robotskirt
     all_branches: true
 after_script:
-  - cat lcov.info | codeclimate
+- npm run cover
+- cat coverage/lcov.info | ./node_modules/.bin/codeclimate

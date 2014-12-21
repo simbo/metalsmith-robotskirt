@@ -3,6 +3,7 @@
 # ==================================================================
 
 test
+coverage
 .editorconfig
 .gitignore
 .travis.yml
