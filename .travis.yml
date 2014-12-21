@@ -8,7 +8,7 @@ deploy:
   provider: npm
   email: simbo@simbo.de
   api_key:
-    secure: XF+pg9M49bagB1Dj7ydmm0uTyq/cx+MkmCELVJ2xR1GB9Q/eu9j5/goJwHeMwScIhrSkhYAWINSMF/N3DXKuknn78hPkyABIMF7XZGArj4vvVTeO2Z0wY5wpxyCzKysGKnhmiVBsy0YpZVLY8YMIL/zEuDeYon/z3FVV0jKnIr4=
+    secure: HIAc1J0ybDbsyiy7hbQu2+yWPWRJj1dlBeWAloDpSyVI93+3uQXsvFz1tFwLK+QRC4y3ymdTYFTcvyVFeFy76Incaprir4Y/A2N0U3ttKgCxWAAZ8OY6TTQGgAvGaPJxrhYxzYKmV4dpx3l2WzsdgPxWqA+etlFjm/xXc8w3fF0=
   on:
     tags: true
     repo: simbo/metalsmith-robotskirt
