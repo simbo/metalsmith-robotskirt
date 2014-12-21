@@ -1,18 +1,23 @@
 metalsmith-robotskirt
 =====================
 
-[![Build Status](https://travis-ci.org/simbo/metalsmith-robotskirt.svg?branch=master)](https://travis-ci.org/simbo/metalsmith-robotskirt)
-
   > A Metalsmith plugin to convert markdown files with
   > [Robotskirt](https://github.com/benmills/robotskirt),
   > a node wrapper for [Sundown](https://github.com/vmg/sundown).
 
+[![npm Package Version](https://img.shields.io/npm/v/metalsmith-robotskirt.svg?style=flat-square)](https://www.npmjs.com/package/metalsmith-robotskirt)
 [![MIT License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://simbo.mit-license.org)
+[![Dependencies Status](https://img.shields.io/david/simbo/metalsmith-robotskirt.svg?style=flat-square)](https://david-dm.org/simbo/metalsmith-robotskirt)
+[![devDependencies Status](https://img.shields.io/david/dev/simbo/metalsmith-robotskirt.svg?style=flat-square)](https://david-dm.org/simbo/metalsmith-robotskirt#info=devDependencies)
+[![Travis Build Status](https://img.shields.io/travis/simbo/metalsmith-robotskirt/master.svg?style=flat-square)](https://travis-ci.org/simbo/metalsmith-robotskirt)
+[![Code Climate GPA](https://img.shields.io/codeclimate/github/simbo/metalsmith-robotskirt.svg?style=flat-square)](https://codeclimate.com/github/simbo/metalsmith-robotskirt)
 
 
 ## Installation
 
-  $ npm install metalsmith-robotskirt
+``` sh
+$ npm install metalsmith-robotskirt
+```
 
 
 ## CLI Usage
